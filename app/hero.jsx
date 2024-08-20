@@ -26,9 +26,9 @@ export class Heroo extends Component {
         <div className="flex mt-10 lg:flex-row flex-col justify-between items-center container mx-auto">
           <div className="flex lg:flex-row flex-col flex-1 items-center 2xl:gap-20 gap-4 lg:pt-0 pt-4">
             <div className="flex lg:flex-col flex-row 2xl:gap-4 gap-2">
-              <img className="w-9 " src="/assets/xx-logo.png" />
-              <img className="w-9 " src="/assets/telegram-logo.png" />
-              <img className="w-9 " src="/assets/infi-logo.png" />
+              <img className="w-9 cursor-pointer" src="/assets/xx-logo.png" />
+              <img className="w-9 cursor-pointer" src="/assets/telegram-logo.png" />
+              <img className="w-9 cursor-pointer" src="/assets/infi-logo.png" />
             </div>
             <div>
               <p className="sm:text-lg text-sm lg:text-start text-center word-spacing:-200px px-1">
