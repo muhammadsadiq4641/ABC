@@ -4,6 +4,9 @@ import Navbar from "./navbar";
 import Heroo from "./hero";
 import Introduction from "./introduction";
 import BuyNow from "./buyNow";
+import Faqs from "./faqs";
+import Footer from "./foter";
+import Practice from "./prractice";
 
 export default function Home() {
   return (
@@ -12,8 +15,10 @@ export default function Home() {
       <Heroo />
       <Introduction />
       <BuyNow />
-
-      <div className="overflow-x-hidden bg-red-300"></div>
+      <Faqs />
+      <Footer />
+      {/* <Practice /> */}
+      
     </>
   );
 }

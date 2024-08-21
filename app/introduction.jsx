@@ -4,22 +4,22 @@ const Introduction = () => {
   return (
     <div className="container mx-auto">
       <div>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center relative  justify-between">
           <img
-            className="xl:w-[135px] sm:w-[100px] w-[60px]"
+            className="xl:w-[135px] sm:w-[100px] absolute left-0 w-[60px]"
             src="/assets/intro-img-l.png"
           />
-          <h1 className="text-[#504F4F] 2xl:text-[80px] lg:text-6xl sm:text-4xl text-2xl w-full text-center  font-normal">
+          <h1 className="text-[#504F4F] 2xl:text-[80px] lg:text-6xl sm:text-4xl text-2xl w-full text-center  font-normal font-Urbanist">
             Introduction to <span className="text-[#5299EC]">Sigma33</span>
           </h1>
           <img
-            className="xl:w-[135px] sm:w-[100px] w-[60px]"
+            className="xl:w-[135px] sm:w-[100px] absolute right-0 w-[60px]"
             src="/assets/intro-img-r.png"
           />
         </div>
         {/* asd */}
         <div className="flex mt-10 lg:flex-row flex-col 2xl:gap-10 items-center justify-between">
-          <div className="">
+          <div>
             <img className="2xl:w-[626px]" src="./assets/intro-sigma-img.png" />
           </div>
           <div className="flex-1">

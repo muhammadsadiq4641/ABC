@@ -10,14 +10,14 @@ const inter = Inter({
 const urbanist = Urbanist({
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800"],
-  variable: "--font-Urbanist",
+  variable: "--font-urbanist",
 });
 
 export const metadata = {
-  title: "next starter kit",
+  title: "Sigma 33",
   description: "$AMP (Algorithmic Monetary Policy)",
   icons: {
-    icon: [{ url: "/favicon/favicon.png" }],
+    icon: [{ url: "/assets/sigma33-logo.png" }],
   },
 };
 

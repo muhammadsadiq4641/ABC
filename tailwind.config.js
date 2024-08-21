@@ -33,7 +33,7 @@ module.exports = {
         secondary: "#6F767E",
       },
       fontFamily: {
-        Urbanist: ["var(--Urbanist)"],
+        Urbanist: "var(--font-urbanist)",
       },
     },
   },
